@@ -1,0 +1,34 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.slick-next, .slick-prev{
+  z-index: 1;
+  top: unset;
+  bottom: 10%;
+
+  &::before{
+    opacity: 1;
+    font-size: 50px;
+  }
+}
+
+.slick-next{
+  right: 125px;
+}
+
+.slick-prev{
+  right: calc(125px + 5%);
+  left: unset;
+}

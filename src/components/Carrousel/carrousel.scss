@@ -1,0 +1,42 @@
+.carrousel{
+  &__section{
+    padding: 16px 24px;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    h1{
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      letter-spacing: 3px;
+      display: inline-block;
+      max-width: 250px;
+    }
+  }
+
+  &__svg{
+    display: grid;
+    width: 30px;
+    height: 30px;
+    background-color: #f8b738;
+    place-content: center;
+    border-radius: 100%;
+    color: white;
+  }
+
+  &__link{
+    display: flex;
+    align-items: center;
+
+    p{
+      color: white;
+      margin-left: 10px;
+    }
+  }
+}
