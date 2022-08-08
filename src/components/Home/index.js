@@ -1,4 +1,5 @@
 import Carrousel from '../Carrousel';
+import Collections from '../Collections';
 import Navigation from '../Navigation';
 
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Navigation />
         <Carrousel />
+        <Collections />
     </div>
   )
 }

@@ -1,0 +1,16 @@
+.collections{
+  padding: 45px 24px;
+  display: flex;
+  &__item{
+    aspect-ratio: 4/3;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+    &:first-child{
+      margin-right: 1rem;
+    }
+    &:last-child{
+      margin-left: 1rem;
+    }
+  }
+}
